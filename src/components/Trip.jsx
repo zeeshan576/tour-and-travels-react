@@ -36,7 +36,7 @@ function Trip(){
 
                  <TripData
                 image={Trip3}
-                heading="Trip in france"
+                heading="Trip in France"
                 para="France is a dream destination for travelers who want to experience stunning architecture, 
                 rich history, beautiful landscapes, and world-famous cuisine. From the iconic Eiffel Tower and 
                 charming streets of Paris to the picturesque countryside, magnificent castles, and breathtaking 

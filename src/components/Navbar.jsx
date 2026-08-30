@@ -9,7 +9,7 @@ function Navbar() {
     return (
 
         <nav className="NavbarItems">
-            <h1 className="navbar-logo">Trippy</h1>
+            <h1 className="navbar-logo">Zeeshi_Tours</h1>
             <div className="menu-icon">
                 <i className={clicked ? "fas fa-times" : "fas fa-bars"}
                 onClick={()=>setClicked(!clicked)}></i>
