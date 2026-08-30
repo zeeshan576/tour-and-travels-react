@@ -32,6 +32,13 @@
     margin-bottom: 4rem;
 }
 
+.success-message {
+    color: green;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
 @media  screen and (max-width: 850px) {
     .form-container{
         margin: 4rem 2rem;
@@ -40,5 +47,11 @@
     padding-top: 2rem;
     width: 90%;
 }
+     .success-message {
+         font-size: 14px;
+        margin-top: 12px;
+        text-align: center;
+        font-weight: 600;
+    }
     
 }
