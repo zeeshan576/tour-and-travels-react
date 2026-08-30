@@ -14,7 +14,7 @@ return(
         title="Your Journey Your Story"
         text="Choose Your Favourite Destination."
         buttonText="Travel Plan"
-        url= "/"
+        path= "/contact"
         btnClass = "show"
         />
         <Destination/>

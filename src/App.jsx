@@ -4,6 +4,7 @@ import Home from './routes/Home'
 import About from './routes/About'
 import Service from './routes/Service'
 import Contact from './routes/Contact'
+import ContactUs from './components/ContactUs'
 
 
 function App() {

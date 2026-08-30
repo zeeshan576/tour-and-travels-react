@@ -9,7 +9,7 @@ function ContactUs(){
                 <input placeholder='Email'/>
                 <input placeholder='Subject'/>
                 <textarea placeholder='Message' rows={4} ></textarea>
-                <button>Send Message</button>
+                <button type='submit'>Send Message</button>
             </form>
         </div>
 

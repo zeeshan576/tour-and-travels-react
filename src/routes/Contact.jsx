@@ -5,7 +5,7 @@ import ContactImg from '../assets/2.jpg';
 import Footer from "../components/Footer";
 import ContactUs from "../components/ContactUs";
 
-function Contact() {
+function Contact(){
     return(
         <>
          <Navbar />

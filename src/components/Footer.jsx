@@ -11,10 +11,9 @@ const Footer = () => {
                     <p>Choose your favourite destination.</p>
                 </div>
                 <div>
-                    <Link href='/'><i className='fa-brands fa-facebook-square'></i></Link>
-                    <Link href=''><i className='fa-brands fa-instagram-square'></i></Link>
-                    <Link href='/'><i className='fa-brands fa-behance-square'></i></Link>
-                    <Link href='/'><i className='fa-brands fa-twitter-square'></i></Link>
+                    <Link to='https://www.facebook.com/share/1Ee5CSWxQs/' ><i className='fa-brands fa-facebook-square' ></i></Link>
+                    <Link to='https://www.instagram.com/zeeshiii_hadiii?igsi=bnk5YWNldW4yZXRw '><i className='fa-brands fa-instagram-square'></i></Link>
+                    <Link to='https://www.snapchat.com/add/zee_shii7?share_id=Lco0RML9HOs&locale=en-US'><i className='fa-brands fa-snapchat-square'></i></Link>
                 </div>
             </div>
 
@@ -29,7 +28,7 @@ const Footer = () => {
 
                 <div>
                  <h4>Community</h4>
-                <a href='/'>Github</a>
+                <a href='https://github.com/zeeshan576'>Github</a>
                 <a href='/'>Issue</a>
                 <a href='/'>Project</a>
                 <a href='/'>Twitter</a>
@@ -39,7 +38,7 @@ const Footer = () => {
                 <h4>Help</h4>
                 <a href='/'>Support</a>
                 <a href='/'>TroubleShooting</a>
-                <a href='/'>Contact Us</a>
+                <a href='/contact'>Contact Us</a>
                 </div>
 
                 <div>
@@ -57,4 +56,4 @@ const Footer = () => {
 
 }
 
-export default Footer
+export default Footer;
