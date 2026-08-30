@@ -1,10 +1,14 @@
 import './ContactUs.css'
 
 function ContactUs(){
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        e.target.reset();
+    }
     return(
         <div className='form-container'>
             <h1>Send a message to us!</h1>
-            <form onSubmit={(e)=>e.preventDefault()}>
+            <form onSubmit={handleSubmit}>
                 <input placeholder='Name'/>
                 <input placeholder='Email'/>
                 <input placeholder='Subject'/>
