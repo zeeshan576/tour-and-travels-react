@@ -4,14 +4,14 @@ import Home from './routes/Home'
 import About from './routes/About'
 import Service from './routes/Service'
 import Contact from './routes/Contact'
-import ContactUs from './components/ContactUs'
-
+import ScrollToTop from './ScrollToTop'
 
 function App() {
 
 
   return (
     <>
+    <ScrollToTop/>
     <Routes>
       <Route path='/' element={<Home/>} />
       <Route path='/about' element={<About/>} />
